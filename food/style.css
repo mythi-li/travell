@@ -1,0 +1,113 @@
+.background
+{
+background-image: url("bg.jpg");
+background-repeat:repeat;
+background-attachment:scroll;
+background-size: 100% 100% ;
+}
+.inback
+{
+    background-color: white;
+    opacity: 0.8;
+}
+h2
+{
+    text-align: center;
+}
+header
+{
+    text-align: center;
+    color:black;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.first 
+{
+    background-color:black;
+    position: absolute;
+    width: 99%;
+    padding: bottom 10px;
+}
+.first a 
+{
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.first a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+.first input[type=text] 
+{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+img 
+{
+    border-radius: 8px;
+}
+.row
+{
+    display: flex;
+}
+.column
+{
+    flex: 33.33%;
+    padding: 5px;
+}
+.select
+{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+table, th, td 
+{
+    border: 1px solid;
+}
+table 
+{
+    width: 100%;
+    gap: 10px;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
+.last h3
+{
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    height: 50px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+    from {background-color: red;}
+    to {background-color:yellowgreen;}
+}
